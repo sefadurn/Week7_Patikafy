@@ -1,6 +1,6 @@
 🎵 Sanatçı Bilgi Listesi - C# Konsol Uygulaması 🎤
 Bu C# konsol uygulaması, Türk müziğinden seçkin sanatçıların bilgilerini tutar ve LINQ sorguları ile çeşitli filtreleme ve sıralama işlemleri yapar.
-
+---
 ✨ Özellikler
 🔎 Adı "S" harfi ile başlayan sanatçıları listeler
 
@@ -11,7 +11,7 @@ Bu C# konsol uygulaması, Türk müziğinden seçkin sanatçıların bilgilerini
 🏆 En çok albüm satan sanatçıyı bulur
 
 📅 En yeni ve en eski çıkış yapan sanatçıları listeler
-
+---
 📋 Program Detayları
 Sanatçı Sınıfı (Sanatci)
 Özellik	Açıklama
@@ -19,7 +19,7 @@ AdSoyad	Sanatçının adı ve soyadı
 MuzikTuru	Sanatçının müzik türü
 CikisYili	Müzik kariyerine başladığı yıl
 AlbumSatis	Albüm satış miktarı (milyon adet)
-
+---
 🚀 Nasıl Çalıştırılır?
 Projeyi Visual Studio veya tercih ettiğiniz C# IDE'sinde açın
 
