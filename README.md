@@ -1,7 +1,18 @@
-🎵 Sanatçı Bilgi Listesi - C# Konsol Uygulaması 🎤
-Bu C# konsol uygulaması, Türk müziğinden seçkin sanatçıların bilgilerini tutar ve LINQ sorguları ile çeşitli filtreleme ve sıralama işlemleri yapar.
+🎵 Sanatçı Bilgi Listesi
+
+Bu C# konsol uygulaması, belirli sanatçıların bilgilerini içeren bir liste üzerinde LINQ sorguları kullanarak çeşitli filtreleme ve sıralama işlemleri yapmaktadır.
 ---
-✨ Özellikler
+📦 Sınıf: Sanatci
+| Özellik (Property) | Açıklama                       |
+|--------------------|-------------------------------|
+| `string AdSoyad`   | Sanatçının adı ve soyadı       |
+| `string MuzikTuru` | Sanatçının müzik türü          |
+| `int CikisYili`    | Sanatçının çıkış yılı          |
+| `int AlbumSatis`   | Albüm satış miktarı (milyon)  |
+
+
+Uygulama İşleyişi
+
 🔎 Adı "S" harfi ile başlayan sanatçıları listeler
 
 💿 Albüm satışı 10 milyonun üzerinde olan sanatçıları gösterir
@@ -11,18 +22,9 @@ Bu C# konsol uygulaması, Türk müziğinden seçkin sanatçıların bilgilerini
 🏆 En çok albüm satan sanatçıyı bulur
 
 📅 En yeni ve en eski çıkış yapan sanatçıları listeler
----
-📋 Program Detayları
-Sanatçı Sınıfı (Sanatci)
-Özellik	Açıklama
-AdSoyad	Sanatçının adı ve soyadı
-MuzikTuru	Sanatçının müzik türü
-CikisYili	Müzik kariyerine başladığı yıl
-AlbumSatis	Albüm satış miktarı (milyon adet)
----
-🚀 Nasıl Çalıştırılır?
-Projeyi Visual Studio veya tercih ettiğiniz C# IDE'sinde açın
 
-Program.cs dosyasını çalıştırın
+---
+🚀 Çalıştırma
 
-Konsol ekranında aşağıdaki gibi sonuçları göreceksiniz.
+Projeyi Visual Studio veya tercih ettiğiniz C# geliştirme ortamında açarak Program.cs dosyasını çalıştırabilirsiniz. Konsol ekranında yukarıdaki adımlara göre sorgu sonuçları listelenecektir.
+
